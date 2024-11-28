@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -72,4 +73,60 @@ img{
     display: flex;
     justify-content: flex-end;
     gap: 3rem;
+=======
+#footer {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.text img {
+  width: 100%;
+  height: 2rem;
+}
+li {
+  list-style: none;
+  line-height: 3.5rem;
+}
+li a {
+  opacity: 70%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.fa-heart {
+  color: red;
+  font-size: 20px;
+}
+.colorlib {
+  font-size: 20px;
+  color: red;
+}
+.copyright {
+  width: 100%;
+  margin: 6rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.copyright p {
+  opacity: 60%;
+  font-size: 20px;
+}
+.footer-icons {
+  display: flex;
+  gap: 3rem;
+  font-size: 20px;
+}
+.footer-icons i:hover {
+  transform: scale(1.2);
+  color: red;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+>>>>>>> 2ab04a141d5e3a59af16d0ed1f6fc4a6956fb6a0
 }
