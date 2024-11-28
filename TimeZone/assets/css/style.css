@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none !important;
+    list-style: none !important;
+    outline: none !important;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.banner-two{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+}
+img{
+    width: 100%;
+}
+
+.watch-card img{
+  transition: 4s ease-out 0s;
+}
+.watch-card img:hover{
+  transform: scale(1.05);
+  transition: 1s ease-out 0s;
+}
+
+#head{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: normal ;
+}
+
+.photo{
+    overflow: hidden;
+    width: 100%;
+}
+
+.navbar{
+    height: 90px;
+}
+
+.navbar-center ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navbar-center ul li a{
+    color: black;
+    font-size: 16px;
+    font-weight: bold; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar-center ul li a:hover{
+    color: red;
+}
+
+.sup-hot{
+    border: 1px solid red;
+    border-radius: 25%;
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 3rem;
+}
