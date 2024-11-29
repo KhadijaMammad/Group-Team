@@ -17,7 +17,7 @@ async function getData() {
                 <div  class="card" style="width: 95%">
                     <div class="watches-cards">
                         <div class="watch-data my-3">
-                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-regular fa-heart fav"></i>
                             <img src="${watch.image}" class="popular-img">
                             <button class="btn btn-danger add-card">Add to Card</button>
                         </div>
